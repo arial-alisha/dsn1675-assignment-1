@@ -13,7 +13,7 @@ html {
 }
 
 body { 
-    margin: 0;
+    margin: 1rem;
     font-family: Geneva, sans-serif; 
 }
 
@@ -32,13 +32,44 @@ header {
     padding: 1em;
     text-decoration: none;
 }
+
+img {
+    width:100%;
+}
     
 @media only screen and (min-width: 25em) {
-    
+
 .nav {
     text-align: center;
 }
     
 .nav li {
     display: inline-block;
+}
+}
+
+@media only screen and (min-width: 35em) {
+
+.img50 {
+    width:47%;
+}
+
+.floatl {
+    float:left;
+}
+    
+.floatr {
+    float:right;
+}
+    
+.clearl {
+    clear:left;
+}   
+    
+.clearb {
+    clear:both;
+}
+    
+.center {
+    margin: left;
 }
