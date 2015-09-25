@@ -84,4 +84,39 @@ img {
     clear: right;
 }
 }
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 120%;
+        line-height: 1.5;
+        margin: 12rem;
+    }
+    
+    title { 
+        float:right;
+}
+    .nav {
+        float:left;
+    }
+
+    .img50 {
+        width: 35;
+    }
+    
+    .banner {
+        width: 70%;
+    }
+        
+
+@media print {
+    nav {
+        display:none;
+    }
+    
+    main a::after {
+        content: " (" attr(href) ")"; 
+        color: #999;
+        
+}
     
