@@ -73,3 +73,16 @@ img {
 .margint {
     padding-top:25px;
 }
+    
+.dt {
+    display:inline-block;
+    width: 25%;
+    
+}
+    
+.dd {
+    display:inline-block; 
+    clear: right;
+}
+}
+    
